@@ -1,6 +1,6 @@
 const stats = [
-  { value: "1000+", label: "Monthly passengers" },
-  { value: "50+", label: "Daily trips" },
+  { value: "300+", label: "Monthly passengers" },
+  { value: "50+", label: "Monthly trips" },
   { value: "99%", label: "On-time rate" },
   { value: "24/7", label: "Support" },
 ];

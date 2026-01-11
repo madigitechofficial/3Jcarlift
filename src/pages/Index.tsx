@@ -15,24 +15,41 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>3J Carlift - Monthly Bus Transport Sharjah to Dubai | AED 500/month</title>
-        <meta 
-          name="description" 
-          content="Affordable monthly bus transport between Sharjah and Dubai. AC buses, fixed schedules, multiple pickup points. Starting from AED 500/month. Book your seat today!" 
-        />
-        <meta name="keywords" content="Sharjah Dubai bus, monthly bus transport, Sharjah to Dubai transport, bus service UAE, commuter bus Dubai, 3J Carlift, affordable transport, daily bus service, AC bus Dubai, office transport" />
-        <link rel="canonical" href="https://3jcarlift.com/" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="3J Carlift - Monthly Bus Transport Sharjah to Dubai" />
-        <meta property="og:description" content="Affordable monthly bus transport. AC buses, fixed schedules. From AED 500/month." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://3jcarlift.com/" />
-        <meta property="og:locale" content="en_AE" />
-        
-        {/* Additional SEO */}
-        <meta name="geo.region" content="AE-SH" />
-        <meta name="geo.placename" content="Sharjah" />
+            <title>Sharjah to Dubai Bus Pick and Drop Service | 3J Car Lift</title>
+
+            <meta
+              name="description"
+              content="Affordable monthly bus pick and drop service between Sharjah and Dubai. AC buses, fixed schedules, and convenient pickup points for daily commuters and office staff."
+            />
+
+            <link rel="canonical" href="https://3jcarlift.com/" />
+
+            <meta name="geo.region" content="AE-SH" />
+            <meta name="geo.placename" content="Sharjah" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://3jcarlift.com/" />
+            <meta
+              property="og:title"
+              content="Sharjah to Dubai Bus Pick and Drop Service | 3J Car Lift"
+            />
+            <meta
+              property="og:description"
+              content="Reliable monthly bus pick and drop service between Sharjah and Dubai with AC buses and fixed schedules."
+            />
+            <meta property="og:locale" content="en_AE" />
+
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta
+              name="twitter:title"
+              content="Sharjah to Dubai Bus Pick and Drop Service | 3J Car Lift"
+            />
+            <meta
+              name="twitter:description"
+              content="Affordable monthly bus transport between Sharjah and Dubai for daily commuters."
+            />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -26,17 +26,17 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center gap-8" role="navigation" aria-label="Main navigation">
           <a 
-            href="#how-it-works" 
+            href="#about" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
           >
-            How it works
+            About Us
           </a>
-          <a 
+          {/* <a 
             href="#services" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
           >
             Services
-          </a>
+          </a> */}
           <a 
             href="#pricing" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"

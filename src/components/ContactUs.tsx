@@ -19,8 +19,40 @@ const ContactUs = () => {
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
           {/* Left - Contact form */}
-          <div className="bg-surface rounded-xl border border-border/50 p-6 md:p-8">
-            <h3 className="font-display text-xl text-foreground mb-6">
+          <div className="space-y-6">
+
+
+            {/* Phone 1 */}
+            <div className="bg-surface rounded-xl border border-border/50 p-6 hover:border-primary/20 transition-all duration-slow">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center" aria-hidden="true">
+                  <PhoneIcon size={24} className="text-primary" />
+                </div>
+                <address className="not-italic">
+                  <p className="text-sm text-muted-foreground">Call us (Line 1)</p>
+                  <a href="tel:+971528215806" className="font-display text-lg text-foreground hover:text-primary transition-colors">
+                    +971 52 821 5806
+                  </a>
+                </address>
+              </div>
+            </div>
+
+            {/* Phone 2 */}
+            <div className="bg-surface rounded-xl border border-border/50 p-6 hover:border-primary/20 transition-all duration-slow">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center" aria-hidden="true">
+                  <PhoneIcon size={24} className="text-primary" />
+                </div>
+                <address className="not-italic">
+                  <p className="text-sm text-muted-foreground">Call us (Line 2)</p>
+                  <a href="tel:+971529352114" className="font-display text-lg text-foreground hover:text-primary transition-colors">
+                    +971 52 935 2114
+                  </a>
+                </address>
+              </div>
+            </div>
+
+            {/* <h3 className="font-display text-xl text-foreground mb-6">
               Send us a message
             </h3>
             
@@ -88,41 +120,11 @@ const ContactUs = () => {
                 Send message
                 <ArrowRightIcon size={18} aria-hidden="true" />
               </Button>
-            </form>
+            </form> */}
           </div>
 
           {/* Right - Contact info */}
           <div className="space-y-6">
-            {/* Phone 1 */}
-            <div className="bg-surface rounded-xl border border-border/50 p-6 hover:border-primary/20 transition-all duration-slow">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center" aria-hidden="true">
-                  <PhoneIcon size={24} className="text-primary" />
-                </div>
-                <address className="not-italic">
-                  <p className="text-sm text-muted-foreground">Call us (Line 1)</p>
-                  <a href="tel:+971528215806" className="font-display text-lg text-foreground hover:text-primary transition-colors">
-                    +971 52 821 5806
-                  </a>
-                </address>
-              </div>
-            </div>
-
-            {/* Phone 2 */}
-            <div className="bg-surface rounded-xl border border-border/50 p-6 hover:border-primary/20 transition-all duration-slow">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center" aria-hidden="true">
-                  <PhoneIcon size={24} className="text-primary" />
-                </div>
-                <address className="not-italic">
-                  <p className="text-sm text-muted-foreground">Call us (Line 2)</p>
-                  <a href="tel:+971529352114" className="font-display text-lg text-foreground hover:text-primary transition-colors">
-                    +971 52 935 2114
-                  </a>
-                </address>
-              </div>
-            </div>
-
             {/* WhatsApp */}
             <div className="bg-surface rounded-xl border border-border/50 p-6 hover:border-primary/20 transition-all duration-slow">
               <div className="flex items-center gap-4">
@@ -159,18 +161,20 @@ const ContactUs = () => {
                 </address>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Quick booking CTA */}
-            <div className="bg-primary rounded-xl p-6 text-center">
-              <p className="text-primary-foreground/80 text-sm mb-2">Prefer to call?</p>
-              <p className="font-display text-xl text-primary-foreground mb-4">We're available 24/7</p>
-              <Button variant="gold" size="lg" className="w-full" asChild>
-                <a href="tel:+971528215806" aria-label="Call now to book at +971 52 821 5806">
-                  <PhoneIcon size={18} aria-hidden="true" />
-                  Call now to book
-                </a>
-              </Button>
-            </div>
+        <div className="grid lg:grid-cols-1 gap-8 lg:gap-12 max-w-5xl mx-auto mt-8">
+          {/* Quick booking CTA */}
+          <div className="bg-primary rounded-xl p-6 text-center">
+            <p className="text-primary-foreground/80 text-sm mb-2">Prefer to call?</p>
+            <p className="font-display text-xl text-primary-foreground mb-4">We're available 24/7</p>
+            <Button variant="gold" size="lg" className="w-full" asChild>
+              <a href="tel:+971528215806" aria-label="Call now to book at +971 52 821 5806">
+                <PhoneIcon size={18} aria-hidden="true" />
+                Call now to book
+              </a>
+            </Button>
           </div>
         </div>
       </div>

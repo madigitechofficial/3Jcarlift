@@ -27,14 +27,13 @@ const Hero = () => {
             id="hero-heading"
             className="font-display text-display-lg md:text-display-xl text-foreground animate-fade-up delay-100"
           >
-            Daily bus service between{" "}
-            <span className="text-primary">Sharjah & Dubai</span>
+            <span className="text-primary">Sharjah and Dubai</span>{" "}
+            Daily Bus Pick and Drop Service
           </h1>
           
           {/* Subheadline */}
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up delay-200">
-            Affordable monthly bus transport for your daily commute. AC buses, fixed schedules, 
-            and reliable pick-up points across Sharjah and Dubai.
+            Affordable Monthly Pick and Drop Transport Service.
           </p>
 
           {/* Trust signals */}
@@ -76,7 +75,7 @@ const Hero = () => {
           {/* Price highlight */}
           <div className="animate-fade-up delay-500">
             <p className="text-sm text-muted-foreground">
-              Starting from just <span className="text-primary font-semibold text-lg">AED 500</span>/month
+              Starting from just <span className="text-primary font-semibold text-lg">AED 450</span>/month
             </p>
           </div>
         </div>

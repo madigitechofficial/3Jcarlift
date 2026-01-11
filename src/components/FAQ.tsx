@@ -3,29 +3,29 @@ import { ChevronDownIcon } from "@/components/icons";
 
 const faqs = [
   {
+    question: "Do you provide daily pick and drop service from Sharjah to Dubai?",
+    answer: "3J Carlift provides affordable monthly bus transport between Sharjah and Dubai. We serve thousands of daily commuters with our fleet of comfortable, air-conditioned buses."
+  },
+  {
     question: "How do I book a seat on the bus?",
     answer: "Simply call us or send a WhatsApp message with your pickup location and preferred timing. We'll confirm your monthly package and assign you to the most convenient route.",
   },
   {
     question: "What are the pickup and drop-off times?",
-    answer: "Our buses operate on fixed schedules with morning pickups from Sharjah between 6:30 AM - 8:00 AM and evening returns from Dubai between 5:30 PM - 7:00 PM. Exact times depend on your pickup point.",
+    answer: "Our buses operate on fixed schedules with morning pickups from Sharjah between 6:30 AM - 8:00 AM and evening returns from Dubai between 5:30 PM - 7:00 PM. Exact times depend on your pickup point. Please do ask for your pickup time while registering for the monthly package.",
   },
   {
     question: "Are the buses air-conditioned?",
     answer: "Yes! All our buses are fully air-conditioned to ensure a comfortable journey, especially during the hot summer months.",
   },
   {
-    question: "What happens if I miss my bus?",
-    answer: "If you miss your scheduled pickup, please contact us immediately. While we try to accommodate changes, we recommend being at your pickup point 5 minutes before departure.",
-  },
-  {
-    question: "Can I change my pickup point?",
-    answer: "Yes, you can request a change in your pickup point. Contact us at least a day in advance and we'll do our best to accommodate your new location if it's within our service area.",
-  },
-  {
     question: "How do I pay for the monthly package?",
     answer: "Payment can be made via bank transfer or cash at the beginning of each month. We'll provide you with all payment details when you register.",
   },
+    {
+    question: "Which areas in Sharjah and Dubai do you cover?",
+    answer: "In Sharjah, we cover areas of  Abu Shagara, Al Buteena, Al Khan, Al Majaz 1, 2, 3, Al Qassimiya, Al Taawun, Al Wahda, Rolla, and in Dubai, we cover the areas of JLT, TECOM, Media City, Internet City, Emaar Business Park, Mazaya Business Park, Barsha Heights, Business Bay, Sheikh Zayed Road, and all Metro Stations.",
+  }
 ];
 
 const FAQ = () => {

@@ -30,12 +30,10 @@ const AboutUs = () => {
                 About us
               </p>
               <h2 id="about-heading" className="font-display text-display-md md:text-display-lg text-foreground">
-                Your daily commute, made easy
+                Office & Employee transport service, made easy
               </h2>
               <p className="text-muted-foreground text-lg">
-                3J Carlift provides affordable monthly bus transport between Sharjah and Dubai. 
-                We serve thousands of daily commuters with our fleet of comfortable, air-conditioned buses. 
-                Forget the stress of traffic — sit back, relax, and let us handle your journey.
+                3J Car Lift provides reliable and affordable monthly pick and drop bus service between Sharjah and Dubai. We serve daily commuters with a fleet of fully air-conditioned buses, fixed schedules, and convenient pickup points across major residential and office areas. Avoid traffic stress and enjoy a comfortable, hassle-free daily commute.
               </p>
             </header>
 

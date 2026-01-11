@@ -4,18 +4,18 @@ import { CheckCircleIcon, ArrowRightIcon, MapPinIcon, BusIcon } from "@/componen
 const pricingOptions = [
   {
     route: "Sharjah → Dubai",
-    price: "AED 500",
+    price: "AED 450",
     period: "/month",
     features: ["Daily pickup & drop", "Fully air-conditioned bus", "Fixed morning & evening schedule", "Multiple pickup points"],
     popular: false,
   },
-  {
-    route: "Round Trip Package",
-    price: "AED 500",
-    period: "/month",
-    features: ["Sharjah → Dubai → Sharjah", "Morning & evening service", "Fully air-conditioned bus", "Seat reservation", "Flexible pickup points"],
-    popular: true,
-  },
+  // {
+  //   route: "Round Trip Package",
+  //   price: "AED 500",
+  //   period: "/month",
+  //   features: ["Sharjah → Dubai → Sharjah", "Morning & evening service", "Fully air-conditioned bus", "Seat reservation", "Flexible pickup points"],
+  //   popular: true,
+  // },
   {
     route: "Dubai → Sharjah",
     price: "AED 500",
@@ -45,7 +45,7 @@ const Pricing = () => {
           {/* Left - Route visualization */}
           <aside className="bg-surface rounded-xl border border-border/50 p-6 md:p-8 order-2 lg:order-1" aria-label="Pickup and drop-off points">
             <h3 className="font-display text-xl text-foreground mb-6">
-              Our pickup points
+              Areas Covered in Sharjah & Dubai
             </h3>
             
             {/* Route map visualization */}

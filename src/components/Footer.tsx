@@ -56,15 +56,15 @@ const Footer = () => {
             <h4 className="font-display text-lg mb-4">Quick links</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#how-it-works" className="text-background/70 hover:text-background transition-colors duration-base">
-                  How it works
+                <a href="#about" className="text-background/70 hover:text-background transition-colors duration-base">
+                  About Us
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#services" className="text-background/70 hover:text-background transition-colors duration-base">
                   Services
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#pricing" className="text-background/70 hover:text-background transition-colors duration-base">
                   Pricing
@@ -105,14 +105,14 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-background/50">
           <p>© {currentYear} 3J Carlift. All rights reserved.</p>
-          <nav className="flex gap-6" aria-label="Legal links">
+          {/* <nav className="flex gap-6" aria-label="Legal links">
             <a href="#" className="hover:text-background transition-colors duration-base">
               Privacy Policy
             </a>
             <a href="#" className="hover:text-background transition-colors duration-base">
               Terms of Service
             </a>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </footer>

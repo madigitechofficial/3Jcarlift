@@ -66,10 +66,10 @@ const Pricing = () => {
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-gold flex items-center justify-center shadow-lg">
                     <BusIcon size={20} className="text-accent-foreground" />
                   </div>
-                  <div className="flex justify-between mt-2 text-xs text-muted-foreground">
+                  {/* <div className="flex justify-between mt-2 text-xs text-muted-foreground">
                     <span>~25 km</span>
                     <span>30-45 min</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Dubai */}

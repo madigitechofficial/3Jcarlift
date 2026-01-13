@@ -27,7 +27,7 @@ const Header = () => {
         <nav className="hidden md:flex items-center gap-8" role="navigation" aria-label="Main navigation">
           <a 
             href="#about" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
+            className="nav-links-custom text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
           >
             About Us
           </a>
@@ -39,13 +39,13 @@ const Header = () => {
           </a> */}
           <a 
             href="#pricing" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
+            className="nav-links-custom text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
           >
             Pricing
           </a>
           <a 
             href="#faq" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
+            className="nav-links-custom text-sm text-muted-foreground hover:text-foreground transition-colors duration-base"
           >
             FAQ
           </a>

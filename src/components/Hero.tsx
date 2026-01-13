@@ -75,7 +75,7 @@ const Hero = () => {
           {/* Price highlight */}
           <div className="animate-fade-up delay-500">
             <p className="text-sm text-muted-foreground">
-              Starting from just <span className="text-primary font-semibold text-lg">AED 450</span>/month
+              Starting from just <span className="text-primary font-semibold text-lg">AED 500</span>/month
             </p>
           </div>
         </div>

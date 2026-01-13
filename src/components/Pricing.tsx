@@ -4,7 +4,7 @@ import { CheckCircleIcon, ArrowRightIcon, MapPinIcon, BusIcon } from "@/componen
 const pricingOptions = [
   {
     route: "Sharjah → Dubai",
-    price: "AED 450",
+    price: "AED 500",
     period: "/month",
     features: ["Daily pickup & drop", "Fully air-conditioned bus", "Fixed morning & evening schedule", "Multiple pickup points"],
     popular: false,
@@ -18,7 +18,7 @@ const pricingOptions = [
   // },
   {
     route: "Dubai → Sharjah",
-    price: "AED 500",
+    price: "AED 450",
     period: "/month",
     features: ["Daily pickup & drop", "Fully air-conditioned bus", "Fixed morning & evening schedule", "Multiple pickup points"],
     popular: false,
@@ -111,6 +111,9 @@ const Pricing = () => {
                   <li>• Business Bay</li>
                   <li>• Sheikh Zayed Road</li>
                   <li>• All Metro Stations</li>
+                  <li>• Emaar square</li>
+                  <li>• Shoba Sphere</li>
+                  <li>• D3</li>
                 </ul>
               </div>
             </div>

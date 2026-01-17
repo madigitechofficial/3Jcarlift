@@ -20,10 +20,14 @@ const Footer = () => {
                 loading="lazy"
               />
             </a>
+            <p className="text-background/70 mb-1 max-w-md">
+              Serving daily commuters across Sharjah and Dubai, United Arab Emirates (UAE).
+            </p>
             <p className="text-background/70 mb-6 max-w-md">
               Professional monthly bus transport service between Sharjah and Dubai. 
               Reliable, punctual, and always at your service.
             </p>
+            
             <div className="flex gap-4">
               <a 
                 href="tel:+971528215806"
